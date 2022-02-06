@@ -5,3 +5,6 @@ The code for drawing and displaying the sign has been implemented already, so yo
 However, if you need to prepare the message to be sent to that sign as an array of bytes. Where each letter
 isidivide into 64 parts and each part represents a yes or no. That is how it will produce the red and 
 black digital sign.
+
+-> To run this program 
+gcc -o signCoder signCoder.c display.c.
